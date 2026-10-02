@@ -1,0 +1,1730 @@
+[
+  {
+    "brand": "Electral",
+    "generic": "Oral Rehydration Salts",
+    "drug_class": "Oral Rehydration / Electrolyte",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-001"
+  },
+  {
+    "brand": "Prolyte ORS",
+    "generic": "Oral Rehydration Salts",
+    "drug_class": "Oral Rehydration / Electrolyte",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-002"
+  },
+  {
+    "brand": "Walyte ORS",
+    "generic": "Oral Rehydration Salts",
+    "drug_class": "Oral Rehydration / Electrolyte",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-003"
+  },
+  {
+    "brand": "ORS Sachet",
+    "generic": "Oral Rehydration Salts",
+    "drug_class": "Oral Rehydration / Electrolyte",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-004"
+  },
+  {
+    "brand": "PBLite",
+    "generic": "Oral Rehydration Salts + Zinc",
+    "drug_class": "Oral Rehydration / Electrolyte",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-005"
+  },
+  {
+    "brand": "Emeset",
+    "generic": "Ondansetron",
+    "drug_class": "5-HT3 Antiemetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-006"
+  },
+  {
+    "brand": "Ondem",
+    "generic": "Ondansetron",
+    "drug_class": "5-HT3 Antiemetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-007"
+  },
+  {
+    "brand": "Vomikind",
+    "generic": "Ondansetron",
+    "drug_class": "5-HT3 Antiemetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-008"
+  },
+  {
+    "brand": "Perinorm",
+    "generic": "Metoclopramide",
+    "drug_class": "Prokinetic Antiemetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-009"
+  },
+  {
+    "brand": "Domstal",
+    "generic": "Domperidone",
+    "drug_class": "Dopamine Antagonist Antiemetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-010"
+  },
+  {
+    "brand": "Vomistop",
+    "generic": "Domperidone",
+    "drug_class": "Dopamine Antagonist Antiemetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-011"
+  },
+  {
+    "brand": "Oflox-OZ",
+    "generic": "Ofloxacin + Ornidazole",
+    "drug_class": "Fluoroquinolone + Nitroimidazole",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-012"
+  },
+  {
+    "brand": "O2",
+    "generic": "Ofloxacin + Ornidazole",
+    "drug_class": "Fluoroquinolone + Nitroimidazole",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-013"
+  },
+  {
+    "brand": "Zenflox-OZ",
+    "generic": "Ofloxacin + Ornidazole",
+    "drug_class": "Fluoroquinolone + Nitroimidazole",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-014"
+  },
+  {
+    "brand": "Norflox-TZ",
+    "generic": "Norfloxacin + Tinidazole",
+    "drug_class": "Fluoroquinolone + Nitroimidazole",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-015"
+  },
+  {
+    "brand": "Metrogyl",
+    "generic": "Metronidazole",
+    "drug_class": "Nitroimidazole Antimicrobial",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-016"
+  },
+  {
+    "brand": "Flagyl",
+    "generic": "Metronidazole",
+    "drug_class": "Nitroimidazole Antimicrobial",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-017"
+  },
+  {
+    "brand": "Rifagut",
+    "generic": "Rifaximin",
+    "drug_class": "Gut-Specific Antibiotic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-018"
+  },
+  {
+    "brand": "Rifaxigress",
+    "generic": "Rifaximin",
+    "drug_class": "Gut-Specific Antibiotic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-019"
+  },
+  {
+    "brand": "Ciplox-TZ",
+    "generic": "Ciprofloxacin + Tinidazole",
+    "drug_class": "Fluoroquinolone + Nitroimidazole",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-020"
+  },
+  {
+    "brand": "Gramogyl",
+    "generic": "Ofloxacin + Metronidazole",
+    "drug_class": "Fluoroquinolone + Nitroimidazole",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-021"
+  },
+  {
+    "brand": "Redotil",
+    "generic": "Racecadotril",
+    "drug_class": "Enkephalinase Inhibitor",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-022"
+  },
+  {
+    "brand": "Zedott",
+    "generic": "Racecadotril",
+    "drug_class": "Enkephalinase Inhibitor",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-023"
+  },
+  {
+    "brand": "Enuff",
+    "generic": "Racecadotril",
+    "drug_class": "Enkephalinase Inhibitor",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-024"
+  },
+  {
+    "brand": "Eldoper",
+    "generic": "Loperamide",
+    "drug_class": "Antimotility Agent",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-025"
+  },
+  {
+    "brand": "Imodium",
+    "generic": "Loperamide",
+    "drug_class": "Antimotility Agent",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-026"
+  },
+  {
+    "brand": "Lopamide",
+    "generic": "Loperamide",
+    "drug_class": "Antimotility Agent",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-027"
+  },
+  {
+    "brand": "Zinconia",
+    "generic": "Zinc Sulfate",
+    "drug_class": "Pediatric Diarrheal Supplement",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-028"
+  },
+  {
+    "brand": "Zincovit",
+    "generic": "Zinc + Multivitamins",
+    "drug_class": "Nutritional Supplement",
+    "category": "Supportive",
+    "is_chronic": false,
+    "weight": 0.3,
+    "id": "med-029"
+  },
+  {
+    "brand": "Enterogermina",
+    "generic": "Bacillus clausii",
+    "drug_class": "Probiotic Spore Formulation",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-030"
+  },
+  {
+    "brand": "Econorm",
+    "generic": "Saccharomyces boulardii",
+    "drug_class": "Probiotic Antidiarrheal",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-031"
+  },
+  {
+    "brand": "Darolac",
+    "generic": "Lactobacillus + Bifidobacterium",
+    "drug_class": "Probiotic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-032"
+  },
+  {
+    "brand": "Cyclopam",
+    "generic": "Dicyclomine + Paracetamol",
+    "drug_class": "Antispasmodic + Analgesic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-033"
+  },
+  {
+    "brand": "Meftal-Spas",
+    "generic": "Mefenamic Acid + Dicyclomine",
+    "drug_class": "Antispasmodic + NSAID",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-034"
+  },
+  {
+    "brand": "Drotikind",
+    "generic": "Drotaverine",
+    "drug_class": "Smooth Muscle Antispasmodic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-035"
+  },
+  {
+    "brand": "Colospa",
+    "generic": "Mebeverine",
+    "drug_class": "GI Antispasmodic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-036"
+  },
+  {
+    "brand": "Pan 40",
+    "generic": "Pantoprazole",
+    "drug_class": "Proton Pump Inhibitor",
+    "category": "Gastroprotective",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-037"
+  },
+  {
+    "brand": "Pantocid",
+    "generic": "Pantoprazole",
+    "drug_class": "Proton Pump Inhibitor",
+    "category": "Gastroprotective",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-038"
+  },
+  {
+    "brand": "Pan-D",
+    "generic": "Pantoprazole + Domperidone",
+    "drug_class": "PPI + Prokinetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.6,
+    "id": "med-039"
+  },
+  {
+    "brand": "Razo 20",
+    "generic": "Rabeprazole",
+    "drug_class": "Proton Pump Inhibitor",
+    "category": "Gastroprotective",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-040"
+  },
+  {
+    "brand": "Razo-D",
+    "generic": "Rabeprazole + Domperidone",
+    "drug_class": "PPI + Prokinetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.6,
+    "id": "med-041"
+  },
+  {
+    "brand": "Omez",
+    "generic": "Omeprazole",
+    "drug_class": "Proton Pump Inhibitor",
+    "category": "Gastroprotective",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-042"
+  },
+  {
+    "brand": "Gelusil",
+    "generic": "Aluminium Hydroxide + Magnesium Hydroxide",
+    "drug_class": "Antacid",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-043"
+  },
+  {
+    "brand": "Digene",
+    "generic": "Magnesium Hydroxide + Simethicone",
+    "drug_class": "Antacid",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-044"
+  },
+  {
+    "brand": "Dolo 650",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-045"
+  },
+  {
+    "brand": "Calpol 650",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-046"
+  },
+  {
+    "brand": "Calpol 500",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-047"
+  },
+  {
+    "brand": "Crocin 650",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-048"
+  },
+  {
+    "brand": "Crocin Advance",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-049"
+  },
+  {
+    "brand": "Pacimol 650",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-050"
+  },
+  {
+    "brand": "P-650",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-051"
+  },
+  {
+    "brand": "Sumo L",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-052"
+  },
+  {
+    "brand": "Paracip 650",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-053"
+  },
+  {
+    "brand": "Combiflam",
+    "generic": "Ibuprofen + Paracetamol",
+    "drug_class": "NSAID + Antipyretic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.6,
+    "id": "med-054"
+  },
+  {
+    "brand": "Brufen 400",
+    "generic": "Ibuprofen",
+    "drug_class": "NSAID",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-055"
+  },
+  {
+    "brand": "Ibugesic Plus",
+    "generic": "Ibuprofen + Paracetamol",
+    "drug_class": "NSAID + Antipyretic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.6,
+    "id": "med-056"
+  },
+  {
+    "brand": "Meftal 500",
+    "generic": "Mefenamic Acid",
+    "drug_class": "NSAID Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-057"
+  },
+  {
+    "brand": "Caripill",
+    "generic": "Carica Papaya Leaf Extract",
+    "drug_class": "Thrombocytopenia Supportive",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-058"
+  },
+  {
+    "brand": "Platimax",
+    "generic": "Carica Papaya Leaf Extract + Tinospora",
+    "drug_class": "Thrombocytopenia Supportive",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-059"
+  },
+  {
+    "brand": "Lariago",
+    "generic": "Chloroquine Phosphate",
+    "drug_class": "Antimalarial",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-060"
+  },
+  {
+    "brand": "Resochin",
+    "generic": "Chloroquine Phosphate",
+    "drug_class": "Antimalarial",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-061"
+  },
+  {
+    "brand": "Falcigo",
+    "generic": "Artesunate",
+    "drug_class": "Antimalarial Artemisinin",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-062"
+  },
+  {
+    "brand": "Coartem",
+    "generic": "Artemether + Lumefantrine",
+    "drug_class": "Antimalarial ACT",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-063"
+  },
+  {
+    "brand": "Larinate",
+    "generic": "Artesunate",
+    "drug_class": "Antimalarial Artemisinin",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-064"
+  },
+  {
+    "brand": "Malar-200",
+    "generic": "Hydroxychloroquine",
+    "drug_class": "Antimalarial",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-065"
+  },
+  {
+    "brand": "Doxt-SL",
+    "generic": "Doxycycline + Lactic Acid Bacillus",
+    "drug_class": "Tetracycline Antibiotic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-066"
+  },
+  {
+    "brand": "Doxy-1",
+    "generic": "Doxycycline",
+    "drug_class": "Tetracycline Antibiotic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-067"
+  },
+  {
+    "brand": "Cetzine",
+    "generic": "Cetirizine",
+    "drug_class": "2nd Gen Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-068"
+  },
+  {
+    "brand": "Zyrtec",
+    "generic": "Cetirizine",
+    "drug_class": "2nd Gen Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-069"
+  },
+  {
+    "brand": "Alerid",
+    "generic": "Cetirizine",
+    "drug_class": "2nd Gen Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-070"
+  },
+  {
+    "brand": "Levocet",
+    "generic": "Levocetirizine",
+    "drug_class": "3rd Gen Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-071"
+  },
+  {
+    "brand": "1-AL",
+    "generic": "Levocetirizine",
+    "drug_class": "3rd Gen Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-072"
+  },
+  {
+    "brand": "Montair LC",
+    "generic": "Montelukast + Levocetirizine",
+    "drug_class": "Leukotriene Receptor Antagonist + Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-073"
+  },
+  {
+    "brand": "Telekast-L",
+    "generic": "Montelukast + Levocetirizine",
+    "drug_class": "Leukotriene Receptor Antagonist + Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-074"
+  },
+  {
+    "brand": "Monticope",
+    "generic": "Montelukast + Levocetirizine",
+    "drug_class": "Leukotriene Receptor Antagonist + Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-075"
+  },
+  {
+    "brand": "Allegra 120",
+    "generic": "Fexofenadine",
+    "drug_class": "Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-076"
+  },
+  {
+    "brand": "Allegra 180",
+    "generic": "Fexofenadine",
+    "drug_class": "Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-077"
+  },
+  {
+    "brand": "Sinarest",
+    "generic": "Paracetamol + Phenylephrine + Chlorpheniramine",
+    "drug_class": "Cold Formulation Decongestant",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-078"
+  },
+  {
+    "brand": "Cheston Cold",
+    "generic": "Cetirizine + Paracetamol + Phenylephrine",
+    "drug_class": "Cold Formulation Decongestant",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-079"
+  },
+  {
+    "brand": "Wikoryl",
+    "generic": "Phenylephrine + Chlorpheniramine + Paracetamol",
+    "drug_class": "Cold Formulation Decongestant",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-080"
+  },
+  {
+    "brand": "Maxtra",
+    "generic": "Phenylephrine + Chlorpheniramine",
+    "drug_class": "Pediatric Decongestant",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-081"
+  },
+  {
+    "brand": "Ascoril D",
+    "generic": "Dextromethorphan + Phenylephrine + Chlorpheniramine",
+    "drug_class": "Antitussive Decongestant",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-082"
+  },
+  {
+    "brand": "Ascoril LS",
+    "generic": "Levosalbutamol + Ambroxol + Guaiphenesin",
+    "drug_class": "Bronchodilator Expectorant",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-083"
+  },
+  {
+    "brand": "Benadryl Cough Syrup",
+    "generic": "Diphenhydramine + Ammonium Chloride",
+    "drug_class": "Antitussive Expectorant",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-084"
+  },
+  {
+    "brand": "Alex Syrup",
+    "generic": "Dextromethorphan + Chlorpheniramine + Phenylephrine",
+    "drug_class": "Antitussive Syrup",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-085"
+  },
+  {
+    "brand": "Grilinctus",
+    "generic": "Dextromethorphan + Chlorpheniramine + Guaiphenesin",
+    "drug_class": "Cough Syrup Formulation",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-086"
+  },
+  {
+    "brand": "Mucolite",
+    "generic": "Ambroxol",
+    "drug_class": "Mucolytic Agent",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-087"
+  },
+  {
+    "brand": "Bro-Zedex",
+    "generic": "Terbutaline + Bromhexine + Guaiphenesin",
+    "drug_class": "Bronchodilator Mucolytic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-088"
+  },
+  {
+    "brand": "Solvin Cold",
+    "generic": "Paracetamol + Phenylephrine + Chlorpheniramine",
+    "drug_class": "Decongestant Antipyretic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-089"
+  },
+  {
+    "brand": "Azithral 500",
+    "generic": "Azithromycin",
+    "drug_class": "Macrolide Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-090"
+  },
+  {
+    "brand": "Azithral 250",
+    "generic": "Azithromycin",
+    "drug_class": "Macrolide Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-091"
+  },
+  {
+    "brand": "Zady 500",
+    "generic": "Azithromycin",
+    "drug_class": "Macrolide Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-092"
+  },
+  {
+    "brand": "Azee 500",
+    "generic": "Azithromycin",
+    "drug_class": "Macrolide Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-093"
+  },
+  {
+    "brand": "Augmentin 625 Duo",
+    "generic": "Amoxicillin + Clavulanic Acid",
+    "drug_class": "Beta-Lactam / Penicillin + BLI",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-094"
+  },
+  {
+    "brand": "Moxikind-CV 625",
+    "generic": "Amoxicillin + Clavulanic Acid",
+    "drug_class": "Beta-Lactam / Penicillin + BLI",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-095"
+  },
+  {
+    "brand": "Clavam 625",
+    "generic": "Amoxicillin + Clavulanic Acid",
+    "drug_class": "Beta-Lactam / Penicillin + BLI",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-096"
+  },
+  {
+    "brand": "Taxim-O 200",
+    "generic": "Cefixime",
+    "drug_class": "3rd Gen Cephalosporin",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-097"
+  },
+  {
+    "brand": "Mahacef 200",
+    "generic": "Cefixime",
+    "drug_class": "3rd Gen Cephalosporin",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-098"
+  },
+  {
+    "brand": "Ceftum 500",
+    "generic": "Cefuroxime Axetil",
+    "drug_class": "2nd Gen Cephalosporin",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-099"
+  },
+  {
+    "brand": "Pulmoxyl 500",
+    "generic": "Amoxicillin",
+    "drug_class": "Penicillin Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-100"
+  },
+  {
+    "brand": "Asthalin Inhaler",
+    "generic": "Salbutamol",
+    "drug_class": "Short-Acting Beta Agonist (SABA)",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-101"
+  },
+  {
+    "brand": "Budecort Inhaler",
+    "generic": "Budesonide",
+    "drug_class": "Inhaled Corticosteroid (ICS)",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-102"
+  },
+  {
+    "brand": "Foracort Inhaler",
+    "generic": "Formoterol + Budesonide",
+    "drug_class": "LABA + ICS",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-103"
+  },
+  {
+    "brand": "Duolin Respules",
+    "generic": "Levosalbutamol + Ipratropium",
+    "drug_class": "Dual Bronchodilator",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-104"
+  },
+  {
+    "brand": "Candid Cream",
+    "generic": "Clotrimazole",
+    "drug_class": "Topical Antifungal",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-105"
+  },
+  {
+    "brand": "Canesten",
+    "generic": "Clotrimazole",
+    "drug_class": "Topical Antifungal",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-106"
+  },
+  {
+    "brand": "Fourderm",
+    "generic": "Clobetasol + Neomycin + Miconazole",
+    "drug_class": "Combination Topical Corticosteroid",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-107"
+  },
+  {
+    "brand": "Bactroban",
+    "generic": "Mupirocin",
+    "drug_class": "Topical Antibacterial",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-108"
+  },
+  {
+    "brand": "T-Bact",
+    "generic": "Mupirocin",
+    "drug_class": "Topical Antibacterial",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-109"
+  },
+  {
+    "brand": "Permite Cream",
+    "generic": "Permethrin",
+    "drug_class": "Scabicide",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-110"
+  },
+  {
+    "brand": "Scaboma",
+    "generic": "Lindane",
+    "drug_class": "Scabicide / Antiparasitic",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-111"
+  },
+  {
+    "brand": "Calamine Lotion",
+    "generic": "Calamine + Zinc Oxide",
+    "drug_class": "Soothing Antipruritic",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-112"
+  },
+  {
+    "brand": "Caladryl",
+    "generic": "Calamine + Diphenhydramine",
+    "drug_class": "Antipruritic Topical",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-113"
+  },
+  {
+    "brand": "Fluka 150",
+    "generic": "Fluconazole",
+    "drug_class": "Systemic Antifungal",
+    "category": "Dermatological",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-114"
+  },
+  {
+    "brand": "Glycomet 500",
+    "generic": "Metformin",
+    "drug_class": "Biguanide Antidiabetic",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-115"
+  },
+  {
+    "brand": "Glycomet-GP 1",
+    "generic": "Glimepiride + Metformin",
+    "drug_class": "Oral Hypoglycemic Combination",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-116"
+  },
+  {
+    "brand": "Amaryl 1mg",
+    "generic": "Glimepiride",
+    "drug_class": "Sulfonylurea Antidiabetic",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-117"
+  },
+  {
+    "brand": "Januvia 100",
+    "generic": "Sitagliptin",
+    "drug_class": "DPP-4 Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-118"
+  },
+  {
+    "brand": "Galvus 50",
+    "generic": "Vildagliptin",
+    "drug_class": "DPP-4 Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-119"
+  },
+  {
+    "brand": "Forxiga 10",
+    "generic": "Dapagliflozin",
+    "drug_class": "SGLT2 Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-120"
+  },
+  {
+    "brand": "Jardiance 10",
+    "generic": "Empagliflozin",
+    "drug_class": "SGLT2 Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-121"
+  },
+  {
+    "brand": "Rybelsus 7mg",
+    "generic": "Semaglutide",
+    "drug_class": "GLP-1 Receptor Agonist",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-122"
+  },
+  {
+    "brand": "Lantus",
+    "generic": "Insulin Glargine",
+    "drug_class": "Long-Acting Insulin",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-123"
+  },
+  {
+    "brand": "Mixtard 30/70",
+    "generic": "Biphasic Isophane Insulin",
+    "drug_class": "Premix Insulin",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-124"
+  },
+  {
+    "brand": "Telma 40",
+    "generic": "Telmisartan",
+    "drug_class": "Angiotensin II Receptor Blocker (ARB)",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-125"
+  },
+  {
+    "brand": "Telmikind 40",
+    "generic": "Telmisartan",
+    "drug_class": "Angiotensin II Receptor Blocker (ARB)",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-126"
+  },
+  {
+    "brand": "Telma-H",
+    "generic": "Telmisartan + Hydrochlorothiazide",
+    "drug_class": "ARB + Thiazide Diuretic",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-127"
+  },
+  {
+    "brand": "Telma-AM",
+    "generic": "Telmisartan + Amlodipine",
+    "drug_class": "ARB + Calcium Channel Blocker",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-128"
+  },
+  {
+    "brand": "Stamlo 5",
+    "generic": "Amlodipine",
+    "drug_class": "Calcium Channel Blocker (CCB)",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-129"
+  },
+  {
+    "brand": "Amlong 5",
+    "generic": "Amlodipine",
+    "drug_class": "Calcium Channel Blocker (CCB)",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-130"
+  },
+  {
+    "brand": "Betaloc 25",
+    "generic": "Metoprolol Succinate",
+    "drug_class": "Beta Blocker",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-131"
+  },
+  {
+    "brand": "Nebicard 5",
+    "generic": "Nebivolol",
+    "drug_class": "Beta Blocker",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-132"
+  },
+  {
+    "brand": "Cardace 5",
+    "generic": "Ramipril",
+    "drug_class": "ACE Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-133"
+  },
+  {
+    "brand": "Envas 5",
+    "generic": "Enalapril",
+    "drug_class": "ACE Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-134"
+  },
+  {
+    "brand": "Losar 50",
+    "generic": "Losartan",
+    "drug_class": "Angiotensin II Receptor Blocker",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-135"
+  },
+  {
+    "brand": "Aten 50",
+    "generic": "Atenolol",
+    "drug_class": "Beta Blocker",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-136"
+  },
+  {
+    "brand": "Arkamin",
+    "generic": "Clonidine",
+    "drug_class": "Central Alpha Agonist",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-137"
+  },
+  {
+    "brand": "Atorva 10",
+    "generic": "Atorvastatin",
+    "drug_class": "HMG-CoA Reductase Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-138"
+  },
+  {
+    "brand": "Atorva 20",
+    "generic": "Atorvastatin",
+    "drug_class": "HMG-CoA Reductase Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-139"
+  },
+  {
+    "brand": "Lipivas 10",
+    "generic": "Atorvastatin",
+    "drug_class": "HMG-CoA Reductase Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-140"
+  },
+  {
+    "brand": "Rosuvas 10",
+    "generic": "Rosuvastatin",
+    "drug_class": "HMG-CoA Reductase Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-141"
+  },
+  {
+    "brand": "Rozucor 10",
+    "generic": "Rosuvastatin",
+    "drug_class": "HMG-CoA Reductase Inhibitor",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-142"
+  },
+  {
+    "brand": "Ecosprin 75",
+    "generic": "Aspirin",
+    "drug_class": "Antiplatelet",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-143"
+  },
+  {
+    "brand": "Clopilet 75",
+    "generic": "Clopidogrel",
+    "drug_class": "Antiplatelet",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-144"
+  },
+  {
+    "brand": "Thyronorm 50mcg",
+    "generic": "Levothyroxine Sodium",
+    "drug_class": "Thyroid Hormone",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-145"
+  },
+  {
+    "brand": "Thyronorm 25mcg",
+    "generic": "Levothyroxine Sodium",
+    "drug_class": "Thyroid Hormone",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-146"
+  },
+  {
+    "brand": "Thyronorm 100mcg",
+    "generic": "Levothyroxine Sodium",
+    "drug_class": "Thyroid Hormone",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-147"
+  },
+  {
+    "brand": "Eltroxin 50mcg",
+    "generic": "Levothyroxine Sodium",
+    "drug_class": "Thyroid Hormone",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-148"
+  },
+  {
+    "brand": "Nexito 10",
+    "generic": "Escitalopram",
+    "drug_class": "SSRI Antidepressant",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-149"
+  },
+  {
+    "brand": "Clonafit 0.5",
+    "generic": "Clonazepam",
+    "drug_class": "Benzodiazepine",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-150"
+  },
+  {
+    "brand": "Alprax 0.25",
+    "generic": "Alprazolam",
+    "drug_class": "Benzodiazepine",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-151"
+  },
+  {
+    "brand": "Tegrital 200",
+    "generic": "Carbamazepine",
+    "drug_class": "Antiepileptic",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-152"
+  },
+  {
+    "brand": "Epitoin 100",
+    "generic": "Phenytoin",
+    "drug_class": "Antiepileptic",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-153"
+  },
+  {
+    "brand": "Encorate Chrono 300",
+    "generic": "Sodium Valproate",
+    "drug_class": "Antiepileptic / Mood Stabilizer",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-154"
+  },
+  {
+    "brand": "Levipil 500",
+    "generic": "Levetiracetam",
+    "drug_class": "Antiepileptic",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-155"
+  },
+  {
+    "brand": "Paracetamol",
+    "generic": "Paracetamol",
+    "drug_class": "Antipyretic / Analgesic",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-156"
+  },
+  {
+    "brand": "Ibuprofen",
+    "generic": "Ibuprofen",
+    "drug_class": "NSAID",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.5,
+    "id": "med-157"
+  },
+  {
+    "brand": "Ondansetron",
+    "generic": "Ondansetron",
+    "drug_class": "5-HT3 Antiemetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-158"
+  },
+  {
+    "brand": "Ofloxacin",
+    "generic": "Ofloxacin",
+    "drug_class": "Fluoroquinolone",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-159"
+  },
+  {
+    "brand": "Ornidazole",
+    "generic": "Ornidazole",
+    "drug_class": "Nitroimidazole",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-160"
+  },
+  {
+    "brand": "Metronidazole",
+    "generic": "Metronidazole",
+    "drug_class": "Nitroimidazole",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-161"
+  },
+  {
+    "brand": "Racecadotril",
+    "generic": "Racecadotril",
+    "drug_class": "Enkephalinase Inhibitor",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 1.0,
+    "id": "med-162"
+  },
+  {
+    "brand": "Azithromycin",
+    "generic": "Azithromycin",
+    "drug_class": "Macrolide Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-163"
+  },
+  {
+    "brand": "Amoxicillin",
+    "generic": "Amoxicillin",
+    "drug_class": "Penicillin Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-164"
+  },
+  {
+    "brand": "Cefixime",
+    "generic": "Cefixime",
+    "drug_class": "3rd Gen Cephalosporin",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-165"
+  },
+  {
+    "brand": "Cetirizine",
+    "generic": "Cetirizine",
+    "drug_class": "Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-166"
+  },
+  {
+    "brand": "Levocetirizine",
+    "generic": "Levocetirizine",
+    "drug_class": "Antihistamine",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-167"
+  },
+  {
+    "brand": "Montelukast",
+    "generic": "Montelukast",
+    "drug_class": "Leukotriene Receptor Antagonist",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-168"
+  },
+  {
+    "brand": "Salbutamol",
+    "generic": "Salbutamol",
+    "drug_class": "Bronchodilator SABA",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-169"
+  },
+  {
+    "brand": "Pantoprazole",
+    "generic": "Pantoprazole",
+    "drug_class": "Proton Pump Inhibitor",
+    "category": "Gastroprotective",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-170"
+  },
+  {
+    "brand": "Rabeprazole",
+    "generic": "Rabeprazole",
+    "drug_class": "Proton Pump Inhibitor",
+    "category": "Gastroprotective",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-171"
+  },
+  {
+    "brand": "Ranitidine",
+    "generic": "Ranitidine",
+    "drug_class": "H2 Blocker",
+    "category": "Gastroprotective",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-172"
+  },
+  {
+    "brand": "Rantac",
+    "generic": "Ranitidine",
+    "drug_class": "H2 Blocker",
+    "category": "Gastroprotective",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-173"
+  },
+  {
+    "brand": "Aciloc 150",
+    "generic": "Ranitidine",
+    "drug_class": "H2 Blocker",
+    "category": "Gastroprotective",
+    "is_chronic": false,
+    "weight": 0.4,
+    "id": "med-174"
+  },
+  {
+    "brand": "Aciloc-RD",
+    "generic": "Ranitidine + Domperidone",
+    "drug_class": "H2 Blocker + Prokinetic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.6,
+    "id": "med-175"
+  },
+  {
+    "brand": "Sporlac",
+    "generic": "Lactic Acid Bacillus",
+    "drug_class": "Probiotic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-176"
+  },
+  {
+    "brand": "Vizylac",
+    "generic": "Lactic Acid Bacillus + B Complex",
+    "drug_class": "Probiotic",
+    "category": "Gastrointestinal",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-177"
+  },
+  {
+    "brand": "Becosules",
+    "generic": "Vitamin B Complex + Vitamin C",
+    "drug_class": "Nutritional Supplement",
+    "category": "Supportive",
+    "is_chronic": false,
+    "weight": 0.2,
+    "id": "med-178"
+  },
+  {
+    "brand": "Limcee 500",
+    "generic": "Vitamin C (Ascorbic Acid)",
+    "drug_class": "Nutritional Supplement",
+    "category": "Supportive",
+    "is_chronic": false,
+    "weight": 0.2,
+    "id": "med-179"
+  },
+  {
+    "brand": "Celin 500",
+    "generic": "Vitamin C",
+    "drug_class": "Nutritional Supplement",
+    "category": "Supportive",
+    "is_chronic": false,
+    "weight": 0.2,
+    "id": "med-180"
+  },
+  {
+    "brand": "Azee 250",
+    "generic": "Azithromycin",
+    "drug_class": "Macrolide Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.9,
+    "id": "med-181"
+  },
+  {
+    "brand": "Ciplox 500",
+    "generic": "Ciprofloxacin",
+    "drug_class": "Fluoroquinolone",
+    "category": "General / Febrile",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-182"
+  },
+  {
+    "brand": "Levoflox 500",
+    "generic": "Levofloxacin",
+    "drug_class": "Respiratory Fluoroquinolone",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-183"
+  },
+  {
+    "brand": "Monocef 1g",
+    "generic": "Ceftriaxone",
+    "drug_class": "Cephalosporin Injectable",
+    "category": "Febrile / Viral",
+    "is_chronic": false,
+    "weight": 0.8,
+    "id": "med-184"
+  },
+  {
+    "brand": "Mox 500",
+    "generic": "Amoxicillin",
+    "drug_class": "Penicillin Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.7,
+    "id": "med-185"
+  },
+  {
+    "brand": "Cipcal 500",
+    "generic": "Calcium + Vitamin D3",
+    "drug_class": "Mineral Supplement",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-186"
+  },
+  {
+    "brand": "Shelcal 500",
+    "generic": "Calcium + Vitamin D3",
+    "drug_class": "Mineral Supplement",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-187"
+  },
+  {
+    "brand": "D-Rise 60k",
+    "generic": "Cholecalciferol (Vitamin D3)",
+    "drug_class": "Vitamin D Supplement",
+    "category": "Ignore",
+    "is_chronic": true,
+    "weight": 0.0,
+    "id": "med-188"
+  },
+  {
+    "brand": "Amoxicillin",
+    "generic": "Amoxicillin",
+    "drug_class": "Aminopenicillin Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.85,
+    "id": "med-189"
+  },
+  {
+    "brand": "Himox",
+    "generic": "Amoxicillin",
+    "drug_class": "Aminopenicillin Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.85,
+    "id": "med-190"
+  },
+  {
+    "brand": "Novamox",
+    "generic": "Amoxicillin",
+    "drug_class": "Aminopenicillin Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.85,
+    "id": "med-191"
+  },
+  {
+    "brand": "Augmentin",
+    "generic": "Amoxicillin + Clavulanic Acid",
+    "drug_class": "Penicillinase-resistant Antibiotic",
+    "category": "Respiratory",
+    "is_chronic": false,
+    "weight": 0.85,
+    "id": "med-192"
+  }
+]
