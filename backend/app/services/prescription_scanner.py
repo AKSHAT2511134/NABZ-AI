@@ -43,9 +43,12 @@ def _load_local_env():
 _load_local_env()
 
 GEMINI_MODELS = [
-    "gemini-2.5-flash",
-    "gemini-2.0-flash",
-    "gemini-1.5-flash",
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-3.1-flash",
+    "gemini-3-flash",
 ]
 
 EXTRACTION_PROMPT = """You are a strict Prescription Document OCR Extraction AI.
@@ -419,13 +422,14 @@ class PrescriptionScannerService:
     def get_api_key(passed_key: Optional[str] = None) -> Optional[str]:
         if passed_key and passed_key.strip():
             return passed_key.strip()
-        return (
+        k = (
             os.getenv("AI_API_KEY")
             or os.getenv("GOOGLE_CLOUD_VISION_API_KEY")
             or os.getenv("GEMINI_API_KEY")
             or os.getenv("MEDICAL_AI_API_KEY")
             or os.getenv("OPENAI_API_KEY")
         )
+        return k
 
     @staticmethod
     def detect_provider(api_key: str) -> str:
@@ -568,7 +572,8 @@ class PrescriptionScannerService:
             raise
 
         try:
-            return validate_extraction(raw)
+            validated = validate_extraction(raw)
+            return validated
         except Exception:
             if self.is_demo_mode():
                 warnings.append("Extraction validation failed; DEMO_MODE sample returned.")

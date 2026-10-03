@@ -51,7 +51,8 @@ async function request(endpoint, options = {}) {
       throw new Error(errData.detail || `HTTP Error ${res.status}`);
     }
 
-    return await res.json();
+    const json = await res.json();
+    return json;
   } catch (err) {
     console.warn(`NABZ API [${endpoint}] unavailable, using fallback:`, err.message);
     throw err;

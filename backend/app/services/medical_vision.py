@@ -9,7 +9,7 @@ import json
 import base64
 import requests
 from typing import Optional, Dict, Any, Tuple, List
-from ..models.prescription import DetectedMedicine, RedactedField, AnalyzePrescriptionResponse
+from ..models.prescription import DetectedMedicine, RedactedField
 from .pii_redactor import redact_pii
 from .nlp_extractor import nlp_extractor
 
@@ -35,9 +35,12 @@ def _load_local_env():
 _load_local_env()
 
 GEMINI_MODELS = [
-    "gemini-2.5-flash",
-    "gemini-2.0-flash",
-    "gemini-1.5-flash",
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-3.1-flash",
+    "gemini-3-flash",
 ]
 
 PRESCRIPTION_AI_PROMPT = """You are an expert Clinical Pharmacist and Medical Document OCR AI.

@@ -21,7 +21,6 @@ from ..models.prescription import (
 )
 from ..models.prescription_scan import (
     ScanPrescriptionResponse,
-    ExtractedPrescription,
 )
 from ..models.signal import SignalRecord
 from ..services.pii_redactor import redact_pii
@@ -37,6 +36,7 @@ router = APIRouter(prefix="/prescriptions", tags=["Prescriptions"])
 def _try_extract_pdf_text(pdf_bytes: bytes) -> tuple[Optional[str], list]:
     warnings: list = []
     try:
+        # pyrefly: ignore [missing-import]
         from pypdf import PdfReader
     except Exception:
         warnings.append(
@@ -79,6 +79,8 @@ def _process_prescription_text(
     # 3. What leaves device summary (Transparency audit)
     what_leaves_device = {
         "ward": ward,
+        "ward_id": ward_id,
+        "facility": facility,
         "reporting_date": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "syndromic_category": category,
         "drug_classes": [m.drug_class for m in detected_medicines if not m.is_chronic],
@@ -159,7 +161,7 @@ async def upload_prescription_file(
     """
     content_type = file.content_type or ""
     valid_types = ["image/jpeg", "image/png", "image/webp", "application/pdf"]
-    if not any(vt in content_type.lower() for vt in ["jpeg", "png", "webp", "pdf", "jpg"]):
+    if not any(vt in content_type.lower() for vt in valid_types):
         raise HTTPException(status_code=400, detail="Invalid file type. Supported: JPG, PNG, PDF")
 
     content = await file.read()
@@ -368,7 +370,7 @@ async def scan_prescription_file(
 
     try:
         content = await prescription.read()
-    except Exception:
+    except Exception as e:
         return ScanPrescriptionResponse(
             success=False,
             error="Could not read the uploaded file. Please try re-uploading.",

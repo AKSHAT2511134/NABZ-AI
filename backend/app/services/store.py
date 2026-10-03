@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from typing import Dict, List, Optional
 from ..models.alert import AlertRecord, AlertExplanation, AlertEvidence
 from ..models.signal import SignalRecord, WardSignalSummary
-from .detection_engine import evaluate_signal_level, generate_explanation, compute_z_score
+from .detection_engine import evaluate_signal_level, generate_explanation
 
 
 class SurveillanceStore:

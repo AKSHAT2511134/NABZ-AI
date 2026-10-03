@@ -62,3 +62,4 @@ desktop.ini
 *.bak
 *.swp
 rx_check.png
+.dbg/

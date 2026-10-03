@@ -243,7 +243,8 @@ export default function PrescriptionScanner() {
 
       if (!resp || !resp.success) {
         setAnalysisStep(0);
-        setAnalysisError(resp?.error || "AI extraction failed. Please try a clearer image.");
+        const errMsg = resp?.error || "AI extraction failed. Please try a clearer image.";
+        setAnalysisError(errMsg);
         setPipelineWarnings(resp?.warnings || []);
         return;
       }
@@ -1006,16 +1007,59 @@ PDF document ready for text extraction + AI analysis.`}
             className="glass-panel-sm use-page-reveal d-0"
             style={{
               marginTop: "18px",
-              padding: "14px 18px",
+              padding: "26px 28px",
               display: "flex",
               alignItems: "flex-start",
-              gap: "10px",
-              background: "color-mix(in srgb, var(--accent-rose) 8%, transparent)",
-              border: "1px solid color-mix(in srgb, var(--accent-rose) 30%, transparent)",
+              gap: "16px",
+              background: "color-mix(in srgb, var(--accent-rose) 10%, transparent)",
+              border: "1px solid color-mix(in srgb, var(--accent-rose) 28%, transparent)",
+              borderRadius: "18px",
             }}
           >
-            <AlertTriangle size={18} style={{ color: "var(--accent-rose)", flexShrink: 0, marginTop: 2 }} />
-            <span style={{ fontSize: "var(--fs-14)", fontWeight: 600, color: "var(--accent-rose)" }}>{analysisError}</span>
+            <div
+              style={{
+                width: "34px",
+                height: "34px",
+                borderRadius: "11px",
+                display: "grid",
+                placeItems: "center",
+                flexShrink: 0,
+                background: "color-mix(in srgb, var(--accent-rose) 14%, transparent)",
+                border: "1px solid color-mix(in srgb, var(--accent-rose) 35%, transparent)",
+              }}
+            >
+              <AlertCircle size={19} style={{ color: "var(--accent-rose)" }} />
+            </div>
+            <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "10px" }}>
+              <div className="t-20" style={{ color: "var(--text-1)", fontWeight: 800, letterSpacing: "-0.01em" }}>
+                AI Model Unavailable
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div className="t-15" style={{ color: "var(--text-3)", fontWeight: 600 }}>
+                  Analysis failed
+                </div>
+                <div className="t-14" style={{ color: "var(--text-4)", lineHeight: 1.55 }}>
+                  {analysisError || "The AI pipeline is temporarily overloaded. Please wait a moment and try again."}
+                </div>
+              </div>
+              <button
+                type="button"
+                className="glass-button"
+                onClick={() => startAnalysis()}
+                style={{
+                  alignSelf: "flex-start",
+                  marginTop: "6px",
+                  padding: "11px 20px",
+                  fontSize: "var(--fs-13)",
+                  fontWeight: 700,
+                  gap: "9px",
+                  background: "color-mix(in srgb, var(--accent-skyfill) 35%, transparent)",
+                  border: "1px solid color-mix(in srgb, var(--accent-cyan) 25%, transparent)",
+                }}
+              >
+                <RefreshCw size={15} /> Try Again
+              </button>
+            </div>
           </div>
         )}
 

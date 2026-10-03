@@ -518,29 +518,31 @@ export default function Capture() {
         setTimeout(() => {
           setShowAnalysisModal(false);
 
-          const recordData = backendResult
-            ? {
-                id: backendResult.id,
-                name: selectedSample?.name || customFile?.name || "Uploaded_Prescription.png",
-                category: backendResult.suggested_category,
-                rawText: selectedSample?.rawText || "Prescription Record",
-                redactedText: backendResult.raw_text_redacted,
-                imagePreview: customImagePreview,
-                detectedMedicines: (backendResult.detected_medicines || []).map((m) => ({
-                  brand: m.brand,
-                  generic: m.generic,
-                  drugClass: m.drugClass || m.drug_class,
-                  category: m.category,
-                  confidence: m.confidence,
-                  dosage: m.dosage,
-                  frequency: m.frequency,
-                  is_chronic: m.is_chronic,
-                })),
-                redactedFields: backendResult.redacted_fields || [],
-                whatLeavesDevice: backendResult.what_leaves_device,
-                warnings: backendResult.warnings,
-              }
-            : selectedSample;
+          if (!backendResult) {
+            return;
+          }
+
+          const recordData = {
+            id: backendResult.id,
+            name: selectedSample?.name || customFile?.name || "Uploaded_Prescription.png",
+            category: backendResult.suggested_category,
+            rawText: selectedSample?.rawText || "Prescription Record",
+            redactedText: backendResult.raw_text_redacted,
+            imagePreview: customImagePreview,
+            detectedMedicines: (backendResult.detected_medicines || []).map((m) => ({
+              brand: m.brand,
+              generic: m.generic,
+              drugClass: m.drugClass || m.drug_class,
+              category: m.category,
+              confidence: m.confidence,
+              dosage: m.dosage,
+              frequency: m.frequency,
+              is_chronic: m.is_chronic,
+            })),
+            redactedFields: backendResult.redacted_fields || [],
+            whatLeavesDevice: backendResult.what_leaves_device,
+            warnings: backendResult.warnings,
+          };
 
           setResultData(recordData);
 
@@ -1524,6 +1526,70 @@ export default function Capture() {
             </div>
           </div>
         </section>
+
+        {/* ANALYSIS ERROR CARD */}
+        {error && (
+          <section className="use-page-reveal d-160" style={{ marginBottom: "18px" }}>
+            <div
+              className="glass-panel-sm"
+              style={{
+                padding: "26px 28px",
+                display: "flex",
+                alignItems: "flex-start",
+                gap: "16px",
+                background: "color-mix(in srgb, var(--accent-rose) 10%, transparent)",
+                border: "1px solid color-mix(in srgb, var(--accent-rose) 28%, transparent)",
+                borderRadius: "18px",
+              }}
+            >
+              <div
+                style={{
+                  width: "34px",
+                  height: "34px",
+                  borderRadius: "11px",
+                  display: "grid",
+                  placeItems: "center",
+                  flexShrink: 0,
+                  background: "color-mix(in srgb, var(--accent-rose) 14%, transparent)",
+                  border: "1px solid color-mix(in srgb, var(--accent-rose) 35%, transparent)",
+                }}
+              >
+                <AlertCircle size={19} style={{ color: "var(--accent-rose)" }} />
+              </div>
+              <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: "10px" }}>
+                <div className="t-20" style={{ color: "var(--text-1)", fontWeight: 800, letterSpacing: "-0.01em" }}>
+                  AI Model Unavailable
+                </div>
+                <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
+                  <div className="t-15" style={{ color: "var(--text-3)", fontWeight: 600 }}>
+                    Analysis failed
+                  </div>
+                  <div className="t-14" style={{ color: "var(--text-4)", lineHeight: 1.55 }}>
+                    {error || "The AI pipeline is temporarily overloaded. Please wait a moment and try again."}
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  className="glass-button"
+                  onClick={handleStartAnalysis}
+                  disabled={showAnalysisModal}
+                  style={{
+                    alignSelf: "flex-start",
+                    marginTop: "6px",
+                    padding: "11px 20px",
+                    fontSize: "var(--fs-13)",
+                    fontWeight: 700,
+                    gap: "9px",
+                    background: "color-mix(in srgb, var(--accent-skyfill) 35%, transparent)",
+                    border: "1px solid color-mix(in srgb, var(--accent-cyan) 25%, transparent)",
+                  }}
+                >
+                  <RefreshCw size={15} /> Try Again
+                </button>
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* BOTTOM CTA BAR */}
         <section className="use-page-reveal d-320" style={{ marginBottom: "8px" }}>
